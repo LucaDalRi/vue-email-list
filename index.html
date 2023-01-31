@@ -10,7 +10,7 @@
     <body>
         
         <div id="app">
-            <ul>
+            <ul v-show="listIsReady">
                 <li v-for="(emails, index) in email">
                     {{email[index]}}
                 </li>
